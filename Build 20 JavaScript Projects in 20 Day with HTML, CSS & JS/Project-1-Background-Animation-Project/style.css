@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    cursor:grabbing;
+}
+
+.container{
+    display: flax;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.container span{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20px;
+    min-width: 20px;
+}
+
+.container span::before{
+    content: "";
+    position: absolute;
+    background:url(https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg)
+}

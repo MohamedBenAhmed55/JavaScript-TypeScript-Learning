@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS App</title>
+    <script src="app.js">
+
+    </script>
+</head>
+
+<body style="background-color: lightgrey; justify-content: center;">
+    <nav style="background-color: black; width: 100%; height: 40px;"></nav>
+    <h1 style="text-align: center; ">My WebPage</h1>
+    <hr />
+    <div>
+        <table border="1px" style="width: 1000px;">
+            <tr>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Gender</th>
+            </tr>
+            <tr>
+                <th>Ahmed</th>
+                <th>Ben Amara</th>
+                <th>M</th>
+            </tr>
+            <tr>
+                <th>Ahmed</th>
+                <th>Ben Amara</th>
+                <th>M</th>
+            </tr>
+            <tr>
+                <th>Ahmed</th>
+                <th>Ben Amara</th>
+                <th>M</th>
+            </tr>
+        </table>
+        <button onclick="printConsole('Hello from the button!')"
+            style="border-radius: 10px;margin-top: 5px; width: 100px; height: 20px; background-color: aquamarine; float: right; ">
+            Click Me</button>
+    </div>
+    <br>
+    <div style="font-size: 20px;">
+        <ul>
+            <li>Test</li>
+            <li>Test</li>
+            <li>Test</li>
+        </ul>
+    </div>
+    <label for="mytext">Input Text:</label>
+    <input type="text" name="mytext" id="mytext">
+    <button onclick="printText()"
+        style="border-radius: 10px;margin-top: 5px; width: 100px; height: 20px; background-color: cornsilk; ">
+        Print text</button>
+    <br>
+    <div>
+        <h3>Calculator</h3>
+        <table style="font-size: 10px;">
+            <tr>
+                <th><button>1</button></th>
+                <th><button>2</button></th>
+                <th><button>3</button></th>
+            </tr>
+            <tr>
+                <th><button>4</button></th>
+                <th><button>5</button></th>
+                <th><button>6</button></th>
+            </tr>
+            <tr>
+                <th><button>7</button></th>
+                <th><button>8</button></th>
+                <th><button>9</button></th>
+            </tr>
+            <tr>
+                <th><button>-</button></th>
+                <th><button>0</button></th>
+                <th><button>+</button></th>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div>
+        <h3>Reverse String</h3>
+        <label for="textrev">Input Text:</label>
+        <input type="text" name="textrev" id="textrev">
+        <button onclick="reverseString()"
+            style="border-radius: 10px;margin-top: 5px; width: 250px; height: 20px; background-color: cornsilk; ">
+            Print Reversed String</button>
+        <br>
+
+    </div>
+    <br>
+    <div>
+        <h3>Palindrome Text</h3>
+        <label for="textpalindrome">Input Text:</label>
+        <input type="text" name="textpalindrome" id="textpalindrome">
+        <button onclick="checkPalindrome()"
+            style="border-radius: 10px;margin-top: 5px; width: 250px; height: 20px; background-color: cornsilk;">
+            Check Palindrome</button>
+        <br>
+
+    </div>
+    <div>
+        <h3>Factorial</h3>
+        <label for="fact">Input number:</label>
+        <input type="number" name="fact" id="fact">
+        <button onclick="factorial()"
+            style="border-radius: 10px;margin-top: 5px; width: 250px; height: 20px; background-color: cornsilk;">
+            Calculate</button>
+        <br>
+
+    </div>
+    <div>
+        <h3>Recursive Factorial</h3>
+        <label for="factrev">Input number:</label>
+        <input type="number" name="factrev" id="factrev">
+        <button onclick="factResult()"
+            style="border-radius: 10px;margin-top: 5px; width: 250px; height: 20px; background-color: cornsilk;">
+            Calculate</button>
+        <br>
+
+    </div>
+</body>
+
+</html>
